@@ -1,0 +1,67 @@
+
+html{
+    background-color: #FEECDB;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 20px;
+    line-height: 1.7;
+    
+}
+
+body{
+    margin: 0;
+}
+
+
+.about{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', sans-serif;
+    text-align: center;
+    color: #af763d;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 3px rgb(66, 66, 66);
+}
+  
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.splash{
+    height: 70vh;
+    margin: 0;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 0;
+    background-image: url('https://i.postimg.cc/HsF2tD01/splash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.main-title{
+    background-color: rgb(8, 8, 8, 0.25);
+    
+    
+}
