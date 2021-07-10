@@ -1,50 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Strona Oli</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Sans:ital@0;1&display=swap"
+        rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
 </head>
+
 <body>
     <section class="splash">
         <div class="page-intro">
             <h1 class="main-title">Paranormal creatures guide</h1>
-            <a href="#" class="btn btn-solid">Today's recommended article</a>
-            
+            <a href="ghosts.html" class="btn btn-solid">Today's <em>recommended</em> article</a>
+
         </div>
     </section>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Catalogue</a></li>
+        </ul>
+        <input type="search" name="search" placeholder="Look for...">
+        <input type="submit" value="Go!">
 
-    <section class="about">
-        <div class="container">
-            <h2 class="section-title">What is this page about?</h2>
-            <p class="section-info">You can learn here various, interesting facts
-                 about paranormal creatures that roam our world in shadows. Hidden from the sun during the daylight,
-                 they leave the dark corners of their unisightly hideouts and start a mission of tormenting 
-                 unsuspecting victims and dumb fools. Boo
-            </p>
-        </div>
-    </section>
+    </nav>
+    <main>
 
-    <section class="highlight">
-        <div class="container">
-            <h2 class="section-title">Most popular creatures</h2>
-            <img  src="./img/splash.jpeg" alt="Scary">
 
-            <ul class="highlited">
-                <li>
-                    <a href="#">Ghosts</a> 
-                    <a href="#">Chupacabra</a> 
-                    <a href="#">Boogeyman</a> 
-                </li>
-            </ul>
-        </div>
-    </section>
-    <script src="scripts/main.js"></script>
-    <button>Change user</button>
+        <aside>
+            <p>Trended!</p>
+            <ol>
+                <li><a href="#">Why is Tede a whore?</a></li>
+                <li><a href="#">Who saw an eagle's shadow?</a></li>
+                <li><a href="#">What is the perfect figure?</a></li>
+            </ol>
+        </aside>
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title">What is this page about?</h2>
+                <div class="wrapper">
+                    <p class="section-info">You can learn here various, interesting facts
+                        about paranormal creatures that roam our world in shadows. Hidden from the sun during the
+                        daylight,
+                        they leave the dark corners of their unisightly hideouts and start a mission of tormenting
+                        unsuspecting victims and dumb fools. Boo
+                    </p>
+                    <h3 class="section-subtitle">Why are you here?</h3>
+                    <p>We know why. You are one of either:</p>
+                    <dl>
+                        <dt>Too curious for your own good</dt>
+                        <dd>What can I say? Curiosity killed the cat, too much knowledge can be harmful too, you know?
+                        </dd>
+                        <dt>Your house is haunted</dt>
+                        <dd>Well I'm not jealous. Unlucky bastard. Gotta go the priest instead of sitting here.</dd>
+                        <dt>Believer of this bullshit</dt>
+                        <dd>Głupców nie sieją, sami się rodzą.</dd>
+                    </dl>
+                    <p>The <code>cout</code> command is used to <strong>print out</strong> the compilation output.</p>
+                    <input type="number">
+                    <p>Special character in HTML: &lt;p&gt;. It means "paragraph".</p>
+                    <p><abbr title="Gloria Młodej Demokracji">GMD</abbr> jest popularnym skrótem w sieci.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="highlight" id="highlight">
+            <div class="container">
+                <h2 class="section-title">Most popular creatures</h2>
+                <figure class="highlight-figure">
+                    <img src="./img/splash.jpeg" alt="Scary image of a ghost.">
+                    <figcaption id="highlight-img-desc">There are many uncharted phenomens in this world.</figcaption>
+                </figure>
+                
+
+                <ul class="highlighted">
+
+                    <li><a href="ghosts.html">Ghosts</a></li>
+                    <li><a href="chupacabra.html">Chupacabra</a> </li>
+                    <li><a href="boogeyman.html">Boogeyman</a> </li>
+
+                </ul>
+            </div>
+        </section>
+        <script src="scripts/main.js"></script>
+        <button class="change-user-btn">Change user</button>
+        <a href="https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.75-installer.msi">Download latest PuTTY
+            (64 bit)</a>
+    </main>
+    <footer>
+        <p>@Aleksandra Pawelec</p>
+    </footer>
 </body>
+
 </html>

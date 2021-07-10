@@ -1,5 +1,4 @@
-
-html{
+html {
     background-color: #FEECDB;
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
@@ -7,15 +6,15 @@ html{
     margin: 0 auto;
     padding: 0 20px;
     line-height: 1.7;
-    
+
 }
 
-body{
+body {
     margin: 0;
 }
 
 
-.about{
+.about {
     border: 1px solid black;
     padding: 20px;
 }
@@ -29,19 +28,20 @@ h1 {
     padding: 20px 0;
     text-shadow: 3px 3px 3px rgb(66, 66, 66);
 }
-  
-p, li {
+
+p,
+li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-.splash{
+.splash {
     height: 70vh;
     margin: 0;
     width: 100%;
@@ -60,8 +60,8 @@ img{
 
 }
 
-.main-title{
+.main-title {
     background-color: rgb(8, 8, 8, 0.25);
-    
-    
+
+
 }
