@@ -5,7 +5,7 @@ html {
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
     max-width: 1920px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0 20px;
     line-height: 1.7;
 
@@ -44,6 +44,14 @@ img {
     height: auto;
 }
 
+.croppable {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
 .splash {
     height: 70vh;
     margin: 0;
@@ -69,12 +77,13 @@ img {
 
 }
 
-#planet-video{
-  display: block;
-  margin: 0 auto;
+#planet-video {
+    display: block;
+    margin: 0 auto;
 }
 
-.youtube-video, .map{
+.youtube-video,
+.map {
     display: block;
     margin: 0 auto;
     margin-top: 20px;
@@ -82,6 +91,48 @@ img {
 }
 
 
-.highlight{
+.highlight {
     margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: rgb(235, 235, 235);
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(250, 250, 250);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(245, 245, 245);
+}
+
+caption {
+    padding: 10px;
+}
+
+tbody {
+    font-size: 95%;
+    font-style: italic;
+}
+
+tfoot {
+    font-weight: bold;
 }
