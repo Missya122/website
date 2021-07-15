@@ -8,9 +8,11 @@
     <title>Strona Oli</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css?v=1">
+    
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Sans:ital@0;1&display=swap"
         rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -76,10 +78,39 @@
             <div class="container">
                 <h2 class="section-title">Most popular creatures</h2>
                 <figure class="highlight-figure">
-                    <img src="./img/splash.jpeg" alt="Scary image of a ghost.">
+                    <img src="" alt="Scary image of a ghost.">
+                    <!-- <img srcset="img/splash.jpeg 1880w,
+                    img/splash_940.jpg 940w"
+                    sizes="(max-width:600px) 940w,
+                    1880w"
+                    src="img/splash.jpeg"
+                    alt="Spooky image of a ghost"> -->
                     <figcaption id="highlight-img-desc">There are many uncharted phenomens in this world.</figcaption>
                 </figure>
-                
+
+                <!-- <picture class="ghost-picture">
+                    <source srcset="./img/splash_940.jpg" media="(max-width: 600px)" />
+                    <img src="./img/splash.jpeg"/>
+                  </picture> -->
+
+                <video id="planet-video" controls width="50%">
+                    <source src="./media/earth-round.mp4" type="video/mp4">
+                    <source src="./media/earth-round.webm" type="video/webm">
+
+                    <track kind="subtitles" src="./media/transcriptions/EN_track.vtt" srclang="en" label="English"
+                        default />
+                    <track kind="subtitles" src="./media/transcriptions/PL_track.vtt" srclang="pl" label="Polski" />
+                    Your broweser doesn't support this HTML:5 element..
+                </video>
+
+                <iframe class="youtube-video" width="50%" height="315" src=""
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <iframe class="map"
+                    src=""
+                    width="50%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                 <ul class="highlighted">
 
@@ -90,7 +121,7 @@
                 </ul>
             </div>
         </section>
-        <script src="scripts/main.js"></script>
+        
         <button class="change-user-btn">Change user</button>
         <a href="https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.75-installer.msi">Download latest PuTTY
             (64 bit)</a>
@@ -98,6 +129,7 @@
     <footer>
         <p>@Aleksandra Pawelec</p>
     </footer>
+    <script src="scripts/main.js?v=1"></script>
 </body>
 
 </html>

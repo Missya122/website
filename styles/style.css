@@ -1,16 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Sans:ital@0;1&display=swap");
+
 html {
     background-color: #FEECDB;
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
     max-width: 1920px;
-    margin: 0 auto;
+    margin:0 auto;
     padding: 0 20px;
     line-height: 1.7;
 
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
 }
 
 
@@ -23,7 +25,8 @@ h1 {
     font-size: 50px;
     font-family: 'Cinzel Decorative', sans-serif;
     text-align: center;
-    color: #af763d;
+    /* color: #af763d; */
+    color: white;
     margin: 0;
     padding: 20px 0;
     text-shadow: 3px 3px 3px rgb(66, 66, 66);
@@ -64,4 +67,21 @@ img {
     background-color: rgb(8, 8, 8, 0.25);
 
 
+}
+
+#planet-video{
+  display: block;
+  margin: 0 auto;
+}
+
+.youtube-video, .map{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.highlight{
+    margin: auto;
 }
