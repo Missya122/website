@@ -88,10 +88,11 @@
                     <figcaption id="highlight-img-desc">There are many uncharted phenomens in this world.</figcaption>
                 </figure>
 
-                <!-- <picture class="ghost-picture">
-                    <source srcset="./img/splash_940.jpg" media="(max-width: 600px)" />
-                    <img src="./img/splash.jpeg"/>
-                  </picture> -->
+                <picture>
+                    <source media="(max-width: 799px)" srcset="/img/red_moon_cropped.jpg">
+                    <source media="(min-width: 800px)" srcset="/img/red_moon.jpg">
+                    <img controls width="75%" class="croppable" src="./img/red_moon.jpg" alt="Red moon shining in the dark.">
+                  </picture>                  
 
                 <video id="planet-video" controls width="50%">
                     <source src="./media/earth-round.mp4" type="video/mp4">
