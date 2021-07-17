@@ -8,8 +8,8 @@
     <title>Strona Oli</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" type="text/css" href="./styles/style.css?v=1">
-    
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Sans:ital@0;1&display=swap"
         rel="stylesheet">
 
@@ -19,18 +19,20 @@
     <section class="splash">
         <div class="page-intro">
             <h1 class="main-title">Paranormal creatures guide</h1>
-            <a href="ghosts.html" class="btn btn-solid">Today's <em>recommended</em> article</a>
-
+            <a href="style-test.html" class="btn btn-solid recommendation-btn">Today's recommended article</a>
         </div>
     </section>
     <nav class="navigation">
-        <ul>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Catalogue</a></li>
-        </ul>
-        <input type="search" name="search" placeholder="Look for...">
-        <input type="submit" value="Go!">
+        <div class="container">
+            <ul>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Catalogue</a></li>
+            </ul>
+        </div>
+
+        <!-- <input type="search" name="search" placeholder="Look for...">
+        <input type="submit" value="Go!"> -->
 
     </nav>
     <main>
@@ -91,8 +93,9 @@
                 <picture>
                     <source media="(max-width: 799px)" srcset="/img/red_moon_cropped.jpg">
                     <source media="(min-width: 800px)" srcset="/img/red_moon.jpg">
-                    <img controls width="75%" class="croppable" src="./img/red_moon.jpg" alt="Red moon shining in the dark.">
-                  </picture>                  
+                    <img controls width="75%" class="croppable" src="./img/red_moon.jpg"
+                        alt="Red moon shining in the dark.">
+                </picture>
 
                 <video id="planet-video" controls width="50%">
                     <source src="./media/earth-round.mp4" type="video/mp4">
@@ -104,14 +107,13 @@
                     Your broweser doesn't support this HTML:5 element..
                 </video>
 
-                <iframe class="youtube-video" width="50%" height="315" src=""
-                    title="YouTube video player" frameborder="0"
+                <iframe class="youtube-video" width="50%" height="315" src="" title="YouTube video player"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
 
-                <iframe class="map"
-                    src=""
-                    width="50%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="map" src="" width="50%" height="300" style="border:0;" allowfullscreen=""
+                    loading="lazy"></iframe>
 
                 <ul class="highlighted">
 
@@ -122,7 +124,7 @@
                 </ul>
             </div>
         </section>
-        
+
         <button class="change-user-btn">Change user</button>
         <a href="https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.75-installer.msi">Download latest PuTTY
             (64 bit)</a>
